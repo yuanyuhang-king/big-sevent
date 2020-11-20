@@ -15,14 +15,34 @@ html,body{
     top: 50%;
     transform: translate(-50%, -50%);
 }
+.layui-form{
+    position: relative;
+}
 .title{
     margin-left: 100px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .layui-form{
-    margin:10px;
+    margin:35px;
 }
 .layui-input{
-    margin:20px 0;
+    margin:10px 0;
+    padding-left: 30px;
 }
-
+.layui-icon{
+    position: absolute;
+    margin: 6px 5px;
+}
+.q1{
+   position: absolute;
+   right: 0;
+   margin-top:60px
+}
+.q2{
+    position: absolute;
+   right: 0;
+   margin-top:10px
+}
+#link_list{
+    display: none;
+}
